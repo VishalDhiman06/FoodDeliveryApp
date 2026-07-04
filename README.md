@@ -51,7 +51,7 @@ app/
 # 📱 Screenshots
 
 <p align="center">
-  <img src="output.png" width="240" alt="FoodDeliveryApp"/>
+  <img src="output.png" width="440" alt="FoodDeliveryApp"/>
   &nbsp;&nbsp;&nbsp;
 </p>
 

@@ -51,9 +51,8 @@ app/
 # 📱 Screenshots
 
 <p align="center">
-  <img src="food1.png" width="240" alt="Home Screen"/>
+  <img src="output.png" width="240" alt="Home Screen"/>
   &nbsp;&nbsp;&nbsp;
-  <img src="food2.png" width="240" alt="Restaurant List"/>
 </p>
 
 ---

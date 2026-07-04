@@ -1,176 +1,223 @@
 # 🍔 Food Delivery App UI
 
-A modern and responsive **Food Delivery Application UI** built using **Jetpack Compose** and **Material 3**. This project demonstrates a clean food ordering interface with categories, promotional offers, popular dishes, and restaurant listings.
+A modern Android **Food Delivery Application UI** built using **Kotlin** and **Jetpack Compose**. The app showcases a clean, responsive, and user-friendly interface with food categories, promotional offers, popular dishes, and restaurant listings. It demonstrates modern Android UI development using Material 3 components and reusable composables.
 
 ---
 
-## 📱 Features
+## Features
 
-- 🏠 Beautiful Home Screen
-- 🔍 Search Bar with Filter Option
-- 🎁 Promotional Offer Banners
-- 🍕 Food Categories
-- ⭐ Popular Food Section
-- 🏪 Restaurant Listing Cards
-- 🖼️ Online Food Images using Coil
-- 🎨 Material 3 Design
-- 📱 Responsive Jetpack Compose UI
-- ⚡ Smooth LazyColumn & LazyRow Scrolling
-
----
-
-## 📸 Screenshots
-
-> Add your screenshots here.
-
-```html
-<p align="center">
-  <img src="food1.png" width="250"/>
-  &nbsp;&nbsp;
-  <img src="food2.png" width="250"/>
-</p>
-```
+* Modern Food Delivery Home Screen
+* Interactive Search Bar
+* Promotional Offer Banners
+* Food Categories
+* Popular Food Section
+* Restaurant Listing Cards
+* Online Food Images using Coil
+* Responsive Jetpack Compose UI
+* Material 3 Design Components
+* Smooth LazyColumn & LazyRow Scrolling
 
 ---
 
-## 🛠️ Built With
+## Technologies Used
 
-- **Kotlin**
-- **Jetpack Compose**
-- **Material 3**
-- **Coil Image Loading**
-- **Android Studio**
+* Kotlin
+* Jetpack Compose
+* Material 3
+* Coil Image Loading
+* LazyColumn
+* LazyRow
+* State Management
+* Android Studio
 
 ---
-
-## 📂 Project Structure
 
 ```
-FoodDeliveryApp
+app/
 │
 ├── MainActivity.kt
-├── ui
-│   ├── theme
-│   ├── Color.kt
-│   ├── Theme.kt
-│   └── Type.kt
-│
-├── components
-│   ├── TopBar
-│   ├── SearchBar
-│   ├── OfferBanner
-│   ├── CategoryRow
-│   ├── PopularFoodRow
-│   └── RestaurantCard
-│
-└── models
-    ├── Category
-    ├── Offer
-    ├── FoodItem
-    └── Restaurant
+├── ui/
+│   └── theme/
+├── models/
+│   ├── Category.kt
+│   ├── FoodItem.kt
+│   ├── Restaurant.kt
+│   └── Offer.kt
+└── AndroidManifest.xml
 ```
 
 ---
 
-## 🎯 UI Components
+# 📱 Screenshots
 
-- Top Delivery Location Bar
-- Search Field
-- Promotional Offers Carousel
-- Food Categories
-- Popular Near You Section
-- Restaurant Cards
-- Dynamic Food Images
-- Ratings & Delivery Time
-- Price Information
+<p align="center">
+  <img src="food1.png" width="240" alt="Home Screen"/>
+  &nbsp;&nbsp;&nbsp;
+  <img src="food2.png" width="240" alt="Restaurant List"/>
+</p>
 
 ---
 
-## 📚 Libraries Used
+## Project Structure
 
-```gradle
-implementation("androidx.compose.ui:ui")
-implementation("androidx.compose.material3:material3")
-implementation("androidx.activity:activity-compose")
-implementation("io.coil-kt:coil-compose")
-```
+### MainActivity
+
+Responsible for:
+
+* Launching the application
+* Setting the Compose theme
+* Displaying the Home Screen
+
+### Home Screen
+
+Responsible for:
+
+* Showing delivery location
+* Displaying search functionality
+* Showing promotional offers
+* Displaying food categories
+* Listing popular dishes
+* Showing restaurant cards
+
+### FoodImage
+
+Responsible for:
+
+* Loading online food images using Coil
+* Displaying fallback icons if images fail to load
+
+### Data Models
+
+Contains:
+
+* Category
+* Offer
+* FoodItem
+* Restaurant
 
 ---
 
-## 🚀 Getting Started
+## UI Components
 
-### Clone the Repository
+### Top Bar
+
+Displays:
+
+* Delivery location
+* Notifications
+* User profile icon
+
+### Search Bar
+
+Provides:
+
+* Food search
+* Restaurant search
+* Filter option
+
+### Offer Banner
+
+Displays:
+
+* Discount offers
+* Promo codes
+* Attractive gradient cards
+
+### Categories
+
+Displays:
+
+* Pizza
+* Burgers
+* Sushi
+* Drinks
+* Desserts
+* Salads
+
+### Popular Near You
+
+Displays:
+
+* Popular food items
+* Ratings
+* Prices
+* Restaurant names
+
+### Restaurant List
+
+Displays:
+
+* Restaurant name
+* Cuisine
+* Delivery time
+* Ratings
+* Minimum order amount
+* Veg/Non-Veg tag
+
+---
+
+## Future Improvements
+
+* User Authentication
+* Food Details Screen
+* Shopping Cart
+* Checkout & Payment
+* Order Tracking
+* Favorites
+* Search Functionality
+* Firebase Integration
+* Dark Mode Support
+* Profile Screen
+
+---
+
+## Installation
+
+Clone the repository:
 
 ```bash
 git clone https://github.com/yourusername/FoodDeliveryApp.git
 ```
 
-### Open in Android Studio
+Open the project in Android Studio.
 
-1. Open Android Studio.
-2. Select **Open Existing Project**.
-3. Choose the cloned folder.
-4. Sync Gradle.
-5. Run the application on an emulator or Android device.
+Build and Run on an Android device or emulator.
 
 ---
 
-## 💡 Learning Objectives
+## Screenshots
 
-This project demonstrates:
+Place your screenshots inside the project folder:
 
-- Jetpack Compose Basics
-- Material 3 Components
-- State Management
-- LazyColumn & LazyRow
-- Custom Composables
-- Reusable UI Components
-- Image Loading with Coil
-- Modern Android UI Design
-
----
-
-## 🔮 Future Improvements
-
-- Login & Signup Screen
-- Food Details Screen
-- Cart Management
-- Checkout Flow
-- Payment Integration
-- Firebase Authentication
-- Firestore Database
-- Order Tracking
-- Dark Mode Support
-- Search Functionality
-- Favorites Feature
+```
+FoodDeliveryApp/
+│
+├── README.md
+├── food1.png
+├── food2.png
+```
 
 ---
 
-## 🤝 Contributing
+## Learning Outcomes
 
-Contributions are welcome!
+This project demonstrates practical knowledge of:
 
-1. Fork the repository.
-2. Create a feature branch.
-3. Commit your changes.
-4. Push your branch.
-5. Open a Pull Request.
-
----
-
-## 📄 License
-
-This project is created for educational and learning purposes.
+* Jetpack Compose
+* Material 3
+* LazyColumn & LazyRow
+* State Management
+* Reusable Composable Functions
+* Image Loading with Coil
+* Responsive UI Design
+* Modern Android Development
 
 ---
 
-## 👨‍💻 Developer
+## Author
 
 **Vishal Dhiman**
 
-- GitHub: https://github.com/yourusername
-- LinkedIn: https://linkedin.com/in/yourprofile
+**B.Tech Student | Android Developer**
 
----
-
-### ⭐ If you found this project helpful, don't forget to give it a Star!
+Passionate about Android Development, Kotlin, Jetpack Compose, and building modern, responsive mobile applications.

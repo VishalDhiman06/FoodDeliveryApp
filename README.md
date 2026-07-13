@@ -52,6 +52,7 @@ app/
 
 <p align="center">
   <img src="output.png" width="700" alt="FoodDeliveryApp"/>
+  <img src="output2.png" width="700" alt="FoodDeliveryApp"/>
   &nbsp;&nbsp;&nbsp;
 </p>
 
